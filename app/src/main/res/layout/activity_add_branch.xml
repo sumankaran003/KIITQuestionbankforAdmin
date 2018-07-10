@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.karan.suman.kiitquestionbankforadmin.AddBranchActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       >
+
+
+    <EditText
+        android:id="@+id/branch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Enter Branch Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/progressbar"
+        android:layout_alignStart="@+id/year" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Year"
+           android:textSize="20dp"
+           android:layout_marginTop="20dp"/>
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/branch"
+        android:layout_alignStart="@+id/subject"
+         />
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/type"
+        android:layout_below="@+id/year"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Subject Name"
+        android:inputType="textPersonName" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Question type"
+           android:textSize="20dp"
+           android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/qyear"
+        android:layout_alignStart="@+id/qyear"
+
+         />
+
+
+
+
+    <EditText
+        android:id="@+id/qyear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Enter YEAR of Question"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/upload"
+        android:layout_alignStart="@+id/upload" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="buttonClick"
+        android:text="upload file"
+        android:backgroundTint="#EDB109"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/textViewStatus"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressbar"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+       <TextView
+           android:id="@+id/textViewStatus"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+
+           android:text="No file selected"
+           android:textAlignment="center"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+   </LinearLayout>
+
+</RelativeLayout>

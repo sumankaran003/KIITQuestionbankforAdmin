@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    tools:context="in.karan.suman.kiitquestionbankforadmin.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/branchadmin"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:backgroundTint="#ffffff"
+            app:srcCompat="@drawable/upload"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="#ED686E"
+            android:background="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/branchadmin"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:id="@+id/centraladmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffff"
+            app:srcCompat="@drawable/upload"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:background="#ffffff"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="#ED686E"
+            android:layout_below="@+id/centraladmin"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="19dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>

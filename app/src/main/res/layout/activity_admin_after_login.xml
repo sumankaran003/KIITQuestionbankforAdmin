@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DFFDF"
+    tools:context="in.karan.suman.kiitquestionbankforadmin.AdminAfterLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME ADMIN"
+            android:backgroundTint="#ffffff"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#009f3d"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="serif"
+            android:text="Register New Branch Admin"
+            android:textColor="#009f3d"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:backgroundTint="#ffffff"/>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="UPLOad question paper"
+            android:fontFamily="serif"
+
+            android:textColor="#009f3d"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:backgroundTint="#ffffff"/>
+
+        <Button
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="serif"
+            android:text="add new branch"
+            android:textColor="#009f3d"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

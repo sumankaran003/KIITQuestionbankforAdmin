@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "343495098504",
+    "firebase_url": "https://kiit-question-bank.firebaseio.com",
+    "project_id": "kiit-question-bank",
+    "storage_bucket": "kiit-question-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343495098504:android:d7917af96bab231d",
+        "android_client_info": {
+          "package_name": "in.karan.suman.kiitquestionbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343495098504-u0ifcv025agr1q7ndevt33a5gq9th6ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.karan.suman.kiitquestionbank",
+            "certificate_hash": "1e716c409ebdf88f9c85fe5d4e4081f8140448db"
+          }
+        },
+        {
+          "client_id": "343495098504-45gsq53otch26866o21v7i2ujau77euu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtKTGm19pgOhA3gyb3fb7lE8ipnTNM7oQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343495098504-45gsq53otch26866o21v7i2ujau77euu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343495098504:android:75a62cb3d3cd6eed",
+        "android_client_info": {
+          "package_name": "in.karan.suman.kiitquestionbankforadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343495098504-ldp8b6v2krs6toc1nukea2ql5aqdbum0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.karan.suman.kiitquestionbankforadmin",
+            "certificate_hash": "1e716c409ebdf88f9c85fe5d4e4081f8140448db"
+          }
+        },
+        {
+          "client_id": "343495098504-45gsq53otch26866o21v7i2ujau77euu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtKTGm19pgOhA3gyb3fb7lE8ipnTNM7oQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343495098504-45gsq53otch26866o21v7i2ujau77euu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
